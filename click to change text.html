@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>colour text </title>
+        <style>
+            .text{
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 style="text-align: center;">Make changes to text</h1>
+        <div class="text">Hello!!! nice to meet you!</div>
+        <button onclick="change()">Click me to make changes</button>
+        <script>
+            let div = document.querySelector(".text");
+            function change(){
+                div.style.color="red";
+            }
+        </script>
+    </body>
+</html>
